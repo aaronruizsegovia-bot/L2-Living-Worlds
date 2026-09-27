@@ -1,0 +1,15 @@
+{
+  "id": "sim-management",
+  "name": "Sim Management",
+  "version": "0.2.0",
+  "apiVersion": "1",
+  "entrypoint": "modules.simmanagement.SimManagementModule",
+  "description": "In-game Sim-Management panel (.sim) to recruit, invite, drop and command the phantoms in your party.",
+  "author": "you",
+  "priority": 100,
+  "dependencies": [],
+  "conflicts": [],
+  "resources": {},
+  "reserves": {},
+  "hooks": []
+}
