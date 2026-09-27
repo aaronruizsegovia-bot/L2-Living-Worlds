@@ -84,6 +84,13 @@ Start-Server.bat
 Stop-Server.bat
 launcher/launcher.ps1
 launcher/stop.ps1
+# Module framework: Sim Management module (.sim). config/module.ini is shipped once so
+# patch-only testers get the switch; remove it from this list after the next patch.
+game/modules/sim-management/module.json
+game/modules/sim-management/MODULE.md
+game/modules/sim-management/config/module.ini
+game/modules/sim-management/scripts/SimManagementModule.java
+game/modules/sim-management/scripts/SimPanel.java
 # launcher/assets/* is intentionally NOT patched: the running LivingWorld.exe holds
 # these open (e.g. launcher.ico as its window icon), so overwriting them mid-update
 # fails with a file-in-use error and aborts the whole patch. Ship changed launcher
